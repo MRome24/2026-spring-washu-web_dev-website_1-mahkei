@@ -4,153 +4,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activities - Columbus Uncovered</title>
+    <title>Activities — Columbus Uncovered</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section id="Activities">
-        <header>
-            <h2 class="Secondary-heading">Activities</h2>
-        </header>
-        <p>There are a lot of fun activities you can partake in throughout Columbus, OH!</p>
-        <div class="attraction" id="cosi">
-            <header>
-                <h3> Center of Science and Industry (COSI)</h3>
-            </header>
-            <p>COSI is a science museum and research center located right in Downtown, Columbus (and next to the
-                Scioto
-                River, an amazing view!). It features more than 300 interactive exhibits which are within themed
-                areas
-                in the museum. </p>
-            <details class="attraction-details">
-                <summary class="attraction-summary">More Details:</summary>
+    <header>
+        <h1>Columbus Uncovered</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a>
                 <ul>
-                    <li>Price: Varies between adults, youth, seniors, millitary, and teachers; Prices differ between
-                        purchasing tickets online or in-person - <a href="https://cosi.org/visit"> See website for
-                            more pricing details</a></li>
+                    <li><a href="history.html#overview">Overview</a></li>
+                    <li><a href="history.html#founding">Founding &amp; Early History</a></li>
+                    <li><a href="history.html#growth">Growth &amp; Development</a></li>
+                    <li><a href="history.html#modern">Modern Columbus</a></li>
+                    <li><a href="history.html#landmarks">Historic Landmarks</a></li>
+                    <li><a href="history.html#timeline">Key Dates</a></li>
+                </ul>
+            </li>
+            <li><a href="activities.html">Activities</a>
+                <ul>
+                    <li><a href="activities.html#cosi">COSI</a></li>
+                    <li><a href="activities.html#scene75">Scene75</a></li>
+                    <li><a href="activities.html#otherworld">Otherworld</a></li>
+                    <li><a href="activities.html#columbus-zoo">Columbus Zoo</a></li>
+                    <li><a href="activities.html#franklin-park">Franklin Park Conservatory</a></li>
+                    <li><a href="activities.html#short-north">Short North Arts District</a></li>
+                </ul>
+            </li>
+            <li><a href="restaurants.html">Restaurants</a>
+                <ul>
+                    <li><a href="restaurants.html#spaghetti-warehouse">The Spaghetti Warehouse</a></li>
+                    <li><a href="restaurants.html#schmidts">Schmidt's Sausage Haus</a></li>
+                    <li><a href="restaurants.html#north-market">North Market</a></li>
+                    <li><a href="restaurants.html#ray-rays">Ray Ray's Hog Pit</a></li>
+                    <li><a href="restaurants.html#akai-hana">Akai Hana</a></li>
+                    <li><a href="restaurants.html#condado-tacos">Condado Tacos</a></li>
+                </ul>
+            </li>
+            <li><a href="events.html">Events</a>
+                <ul>
+                    <li><a href="events.html#ohio-state-fair">Ohio State Fair</a></li>
+                    <li><a href="events.html#arnold-sports-festival">Arnold Sports Festival</a></li>
+                    <li><a href="events.html#red-white-boom">Red, White &amp; BOOM!</a></li>
+                    <li><a href="events.html#columbus-arts-festival">Columbus Arts Festival</a></li>
+                    <li><a href="events.html#jazz-rib-fest">Jazz &amp; Rib Fest</a></li>
+                    <li><a href="events.html#columbus-book-festival">Columbus Book Festival</a></li>
+                </ul>
+            </li>
+            <li><a href="hotels.html">Hotels</a>
+                <ul>
+                    <li><a href="hotels.html#hilton-downtown">Hilton Columbus Downtown</a></li>
+                    <li><a href="hotels.html#graduate-columbus">Graduate by Hilton Columbus</a></li>
+                    <li><a href="hotels.html#hilton-easton">Hilton Columbus at Easton</a></li>
+                    <li><a href="hotels.html#blackwell-inn">The Blackwell Inn</a></li>
+                    <li><a href="hotels.html#ac-hotel-dublin">AC Hotel Columbus Dublin</a></li>
+                    <li><a href="hotels.html#renaissance-polaris">Renaissance Westerville-Polaris</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="Activities">
+        <h2 class="page-title">Activities</h2>
+        <p>Columbus is honestly one of those cities where you never run out of things to do. Whether you're into science
+            museums, immersive art experiences, world-class zoos, or just wandering around a cool neighborhood, there's
+            something here for everyone. Here are some of the best spots to check out!</p>
+
+        <div class="attraction" id="cosi">
+            <div class="card-title">
+                <h3>Center of Science and Industry (COSI)</h3>
+                <a href="https://cosi.org/" class="attraction-link">Visit Website</a>
+            </div>
+            <div class="card-body">
+                <p>COSI is a science museum and research center located right in Downtown Columbus
+                    (and next to the Scioto River, an amazing view!). It features more than 300
+                    interactive exhibits within themed areas in the museum.</p>
+            </div>
+            <div class="info-sidebar">
+                <ul>
+                    <li>Price: Varies between adults, youth, seniors, military, and teachers.
+                        <a href="https://cosi.org/visit">See website for details</a>
+                    </li>
                     <li>Location: <a href="https://maps.app.goo.gl/Mzrig2La9ML7E7BW7">333 W Broad St, Columbus, OH
                             43215</a></li>
-                    <li>Hours of Operation: 10AM - 5PM </li>
+                    <li>Hours: 10AM - 5PM</li>
                 </ul>
-            </details>
+            </div>
             <img class="attraction-img" src="images_activities/cosi.jpg"
-                alt="Picture of the COSI sign, located near entrance" width="300" height="200">
+                alt="Exterior of the COSI science museum in Columbus." width="300" height="200">
         </div>
 
         <div class="attraction" id="scene75">
-            <header>
+            <div class="card-title">
                 <h3>Scene75 Entertainment Center</h3>
-            </header>
-            <p>Scene75 is a large indoor entertainment center that features arcade games, go-karts, laser tag, an
-                indoor
-                drop tower, and even an indoor roller coaster! There is plenty of food options and amazing prices
-                that
-                can be earned with tickets! Plus, it is located inside the Tuttle Mall, so you can do some shopping
-                afterwards!</p>
-            <details class="attraction-details">
-                <summary class="attraction-summary">More Details:</summary>
+                <a href="https://scene75columbus.centeredgeonline.com/retail" class="attraction-link">Visit Website</a>
+            </div>
+            <div class="card-body">
+                <p>Scene75 is a large indoor entertainment center that features arcade games,
+                    go-karts, laser tag, an indoor drop tower, and even an indoor roller coaster!
+                    There are plenty of food options and it is located inside the Tuttle Mall,
+                    so you can do some shopping afterwards!</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
-                    <li><a href="https://scene75columbus.centeredgeonline.com/retail"> See website for
-                            pricing details</a></li>
-                    <li>Location: <a href="https://maps.app.goo.gl/DSQL6NPKwWmXunp78"> 5033 Tuttle Crossing Blvd,
-                            Columbus, OH 43016</a></li>
-                    <li>Hours of Operation: Sundays - Thursdays: 12PM - 9PM | Fridays: 12PM - 11PM | Saturdays: 10AM -
-                        11PM
+                    <li>Price: <a href="https://scene75columbus.centeredgeonline.com/retail">See website for details</a>
                     </li>
+                    <li>Location: <a href="https://maps.app.goo.gl/DSQL6NPKwWmXunp78">5033 Tuttle Crossing Blvd,
+                            Columbus, OH 43016</a></li>
+                    <li>Hours: Sun - Thu: 12PM - 9PM | Fri: 12PM - 11PM | Sat: 10AM - 11PM</li>
                 </ul>
-            </details>
+            </div>
             <img class="attraction-img" src="images_activities/scene75.jpg"
-                alt="Picture of the go-karts, a main attraction at Scene75" width="300" height="200">
+                alt="Go-karts at Scene75 Entertainment Center in Columbus." width="300" height="200">
         </div>
 
         <div class="attraction" id="otherworld">
-            <header>
+            <div class="card-title">
                 <h3>Otherworld</h3>
-            </header>
-            <p>Otherworld is a 32,000-square-foot immersive art installation that feels like stepping into a sci-fi
-                movie. It features over 40 rooms filled with interactive tech, large-scale puzzles, and psychedelic
-                secret passages. It’s essentially a "choose your own adventure" playground where the environment
-                reacts to your movement.</p>
-            <details class="attraction-details">
-                <summary class="attraction-summary">More Details:</summary>
+                <a href="https://www.otherworld.com/tickets" class="attraction-link">Visit Website</a>
+            </div>
+            <div class="card-body">
+                <p>Otherworld is a 32,000-square-foot immersive art installation that feels like
+                    stepping into a sci-fi movie. It features over 40 rooms filled with interactive
+                    tech, large-scale puzzles, and psychedelic secret passages. It's essentially a
+                    "choose your own adventure" playground where the environment reacts to your
+                    movement.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
-                    <li>Price: Varies between adults, children, seniors and millitary; $2 fee applied to general
-                        admission - <a href="https://www.otherworld.com/tickets"> See website for
-                            timed tickets</a> </li>
+                    <li>Price: Varies between adults, children, seniors, and military.
+                        <a href="https://www.otherworld.com/tickets">See website for timed tickets</a>
+                    </li>
                     <li>Location: <a href="https://maps.app.goo.gl/br3qazUnFDD6osv18">5819 Chantry Dr, Columbus, OH
                             43232</a></li>
-                    <li>Hours of Operation: Sundays - Thursdays: 10AM - 8PM | Fridays - Saturdays: 10AM - 10PM</li>
+                    <li>Hours: Sun - Thu: 10AM - 8PM | Fri - Sat: 10AM - 10PM</li>
                 </ul>
-            </details>
-            <img class="attraction-img" src="images_activities/otherworld.jpg" alt="Picture of an exhbit at Otherworld"
-                width="300" height="200">
+            </div>
+            <img class="attraction-img" src="images_activities/otherworld.jpg"
+                alt="An exhibit inside Otherworld immersive art installation in Columbus." width="300" height="200">
         </div>
+
         <div class="attraction" id="columbus-zoo">
-            <header>
+            <div class="card-title">
                 <h3>Columbus Zoo and Aquarium</h3>
-            </header>
-            <p>Consistently ranked as one of the best zoos in the country, this massive complex is home to
-                more than 10,000 animals. In February, you can enjoy "Winter at the Zoo" with discounted
-                admission and indoor exhibits like the Manatee Coast and the Discovery Reef Aquarium.</p>
-            <details class="attraction-details">
-                <summary class="attraction-summary">More Details:</summary>
+                <a href="https://www.columbuszoo.org/hours-and-rates" class="attraction-link">Visit Website</a>
+            </div>
+            <div class="card-body">
+                <p>Consistently ranked as one of the best zoos in the country, this massive complex
+                    is home to more than 10,000 animals. In February, you can enjoy "Winter at the
+                    Zoo" with discounted admission and indoor exhibits like the Manatee Coast and
+                    the Discovery Reef Aquarium.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
-                    <li>Price: Varies between adults, children, and seniors; Discounted pricing available for those who
-                        live in Franklin County! - <a href="https://www.columbuszoo.org/hours-and-rates">See website for
-                            details</a>
+                    <li>Price: Varies between adults, children, and seniors. Discounted pricing
+                        for Franklin County residents!
+                        <a href="https://www.columbuszoo.org/hours-and-rates">See website for details</a>
                     </li>
                     <li>Location: <a href="https://maps.app.goo.gl/bXUJPMKoSeNYJ51Q6">4850 W Powell Rd, Powell, OH
                             43065</a></li>
-                    <li>Hours of Operation: Daily: 10AM - 4PM (Winter Hours)</li>
+                    <li>Hours: Daily: 10AM - 4PM (Winter Hours)</li>
                 </ul>
-            </details>
+            </div>
             <img class="attraction-img" src="images_activities/columbuszoo.jpg"
-                alt="Two large grey manatees swimming at the Columbus Zoo and Aquarium" width="300" height="200">
+                alt="Two manatees swimming at the Columbus Zoo and Aquarium." width="300" height="200">
         </div>
 
         <div class="attraction" id="franklin-park">
-            <header>
+            <div class="card-title">
                 <h3>Franklin Park Conservatory and Botanical Gardens</h3>
-            </header>
-            <p>This is a beautiful botanical landmark that features the iconic 1895 John F. Wolfe Palm House.
-                It's famous for its collection of glass artwork by Dale Chihuly and its diverse "biomes" that
-                let you walk from a Himalayan mountain range into a tropical rainforest in minutes.</p>
-            <details class="attraction-details">
-                <summary class="attraction-summary">More Details:</summary>
+                <a href="https://cart.fpconservatory.org/events" class="attraction-link">Visit Website</a>
+            </div>
+            <div class="card-body">
+                <p>This beautiful botanical landmark features the iconic 1895 John F. Wolfe Palm
+                    House. It's famous for its collection of glass artwork by Dale Chihuly and its
+                    diverse "biomes" that let you walk from a Himalayan mountain range into a
+                    tropical rainforest in minutes.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
-                    <li>Price: Varies between adults, children, and seniors; Culture Fee is also charged on top of daily
-                        admission price <a href="https://cart.fpconservatory.org/events"> -See website for
-                            tickets</a></li>
+                    <li>Price: Varies between adults, children, and seniors. Culture Fee also
+                        charged on top of daily admission.
+                        <a href="https://cart.fpconservatory.org/events">See website for tickets</a>
+                    </li>
                     <li>Location: <a href="https://maps.app.goo.gl/gUjftw5t64zDuQk47">1777 E Broad St, Columbus, OH
                             43203</a></li>
-                    <li>Hours of Operation: Daily: 10AM - 5PM</li>
+                    <li>Hours: Daily: 10AM - 5PM</li>
                 </ul>
-            </details>
+            </div>
             <img class="attraction-img" src="images_activities/franklinpark.jpg"
-                alt="A bright greenhouse interior with various potted plants and hanging flower baskets at the Franklin Park Conservatory"
-                width="300" height="200">
+                alt="Greenhouse interior with plants and flowers at Franklin Park Conservatory." width="300"
+                height="200">
         </div>
 
         <div class="attraction" id="short-north">
-            <header>
+            <div class="card-title">
                 <h3>Short North Arts District</h3>
-            </header>
-            <p>Known as the "art and soul" of Columbus, the Short North is a vibrant neighborhood filled with
-                local galleries, boutiques, and some of the best food in the city. It's perfect for a
-                "Gallery Hop" or just walking around to see the murals and iconic lighted arches over High Street.</p>
-            <details class="attraction-details">
-                <summary class="attraction-summary">More Details:</summary>
+                <a href="https://shortnorth.org/" class="attraction-link">Visit Website</a>
+            </div>
+            <div class="card-body">
+                <p>Known as the "art and soul" of Columbus, the Short North is a vibrant
+                    neighborhood filled with local galleries, boutiques, and some of the best
+                    food in the city. It's perfect for a "Gallery Hop" or just walking around
+                    to see the murals and iconic lighted arches over High Street.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
                     <li>Price: Free to explore</li>
-                    <li>Location: <a href="https://maps.app.goo.gl/kDh2XcHZStR7RBZW8">N High St (Between Downtown and
-                            OSU)</a></li>
-                    <li>Hours of Operation: Most shops/galleries: 11AM - 8PM (Varies by business)</li>
+                    <li>Location: <a href="https://maps.app.goo.gl/kDh2XcHZStR7RBZW8">N High St, between Downtown and
+                            OSU</a></li>
+                    <li>Hours: Most shops and galleries: 11AM - 8PM (varies by business)</li>
                 </ul>
-            </details>
+            </div>
             <img class="attraction-img" src="images_activities/shortnorth.jpg"
-                alt="Picture of a skyline view over North High Street, the main road of the Short North Arts District"
-                width="300" height="200">
+                alt="Skyline view over North High Street in the Short North Arts District." width="300" height="200">
         </div>
+
     </section>
 </body>
 

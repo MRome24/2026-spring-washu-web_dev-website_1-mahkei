@@ -5,144 +5,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events — Columbus Uncovered</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <header>
+        <h1>Columbus Uncovered</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a>
+                <ul>
+                    <li><a href="history.html#overview">Overview</a></li>
+                    <li><a href="history.html#founding">Founding &amp; Early History</a></li>
+                    <li><a href="history.html#growth">Growth &amp; Development</a></li>
+                    <li><a href="history.html#modern">Modern Columbus</a></li>
+                    <li><a href="history.html#landmarks">Historic Landmarks</a></li>
+                    <li><a href="history.html#timeline">Key Dates</a></li>
+                </ul>
+            </li>
+            <li><a href="activities.html">Activities</a>
+                <ul>
+                    <li><a href="activities.html#cosi">COSI</a></li>
+                    <li><a href="activities.html#scene75">Scene75</a></li>
+                    <li><a href="activities.html#otherworld">Otherworld</a></li>
+                    <li><a href="activities.html#columbus-zoo">Columbus Zoo</a></li>
+                    <li><a href="activities.html#franklin-park">Franklin Park Conservatory</a></li>
+                    <li><a href="activities.html#short-north">Short North Arts District</a></li>
+                </ul>
+            </li>
+            <li><a href="restaurants.html">Restaurants</a>
+                <ul>
+                    <li><a href="restaurants.html#spaghetti-warehouse">The Spaghetti Warehouse</a></li>
+                    <li><a href="restaurants.html#schmidts">Schmidt's Sausage Haus</a></li>
+                    <li><a href="restaurants.html#north-market">North Market</a></li>
+                    <li><a href="restaurants.html#ray-rays">Ray Ray's Hog Pit</a></li>
+                    <li><a href="restaurants.html#akai-hana">Akai Hana</a></li>
+                    <li><a href="restaurants.html#condado-tacos">Condado Tacos</a></li>
+                </ul>
+            </li>
+            <li><a href="events.html">Events</a>
+                <ul>
+                    <li><a href="events.html#ohio-state-fair">Ohio State Fair</a></li>
+                    <li><a href="events.html#arnold-sports-festival">Arnold Sports Festival</a></li>
+                    <li><a href="events.html#red-white-boom">Red, White &amp; BOOM!</a></li>
+                    <li><a href="events.html#columbus-arts-festival">Columbus Arts Festival</a></li>
+                    <li><a href="events.html#jazz-rib-fest">Jazz &amp; Rib Fest</a></li>
+                    <li><a href="events.html#columbus-book-festival">Columbus Book Festival</a></li>
+                </ul>
+            </li>
+            <li><a href="hotels.html">Hotels</a>
+                <ul>
+                    <li><a href="hotels.html#hilton-downtown">Hilton Columbus Downtown</a></li>
+                    <li><a href="hotels.html#graduate-columbus">Graduate by Hilton Columbus</a></li>
+                    <li><a href="hotels.html#hilton-easton">Hilton Columbus at Easton</a></li>
+                    <li><a href="hotels.html#blackwell-inn">The Blackwell Inn</a></li>
+                    <li><a href="hotels.html#ac-hotel-dublin">AC Hotel Columbus Dublin</a></li>
+                    <li><a href="hotels.html#renaissance-polaris">Renaissance Westerville-Polaris</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
     <section id="Events">
-        <header>
-            <h2 class="Secondary-heading">Events</h2>
-        </header>
-        <p>The city has wonderful yearly events!</p>
+        <h2 class="page-title">Events</h2>
+        <p>Columbus has no shortage of things to do throughout the year. The city hosts some seriously fun annual
+            events, from massive sports festivals that draw athletes from all over the world to free summer concerts and
+            fireworks on the riverfront. There's genuinely something going on every season, so no matter when you visit,
+            you're probably landing right in the middle of something worth checking out!</p>
 
         <div class="event" id="ohio-state-fair">
-            <header>
+            <div class="card-title">
                 <h3>The Ohio State Fair</h3>
                 <a href="https://www.ohiostatefair.com/" class="event-link">Visit Website</a>
-            </header>
-            <p>TA favorite family tradition since 1850, the Ohio State Fair is one of the longest-standing traditions in
-                the state. It’s packed with exhilarating Midway rides, world-class concerts, and the famous butter cow.
-            </p>
-            <details class="event-details">
-                <summary class="event-summary">More Details</summary>
+            </div>
+            <div class="card-body">
+                <p>A favorite family tradition since 1850, the Ohio State Fair is one of the
+                    longest-standing traditions in the state. It's packed with exhilarating
+                    Midway rides, world-class concerts, and the famous butter cow.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
                     <li>Dates: Late July through early August (annually)</li>
                     <li>Location: <a href="https://maps.app.goo.gl/Z8qjocYo5g3v2Rx99">717 E 17th Ave, Columbus, OH
                             43211</a></li>
                     <li>It has been held since 1850!</li>
                 </ul>
-            </details>
+            </div>
             <img class="event-img" src="images_events/ohiostatefair.jpg"
                 alt="Photograph of the Ohio State Fair at night." width="300" height="200">
         </div>
+
         <div class="event" id="arnold-sports-festival">
-            <header>
+            <div class="card-title">
                 <h3>The Arnold Sports Festival</h3>
                 <a href="https://www.arnoldsports.com/" class="event-link">Visit Website</a>
-            </header>
-            <p>Founded by Arnold Schwarzenegger in 1989, this is the largest multi-sport festival in the
-                world. It attracts over 20,000 athletes from 80 nations to compete in more than 60 sports,
-                ranging from bodybuilding and martial arts to cheerleading and eSports.</p>
-            <details class="event-details">
-                <summary class="event-summary">More Details</summary>
+            </div>
+            <div class="card-body">
+                <p>Founded by Arnold Schwarzenegger in 1989, this is the largest multi-sport
+                    festival in the world. It attracts over 20,000 athletes from 80 nations to
+                    compete in more than 60 sports, ranging from bodybuilding and martial arts
+                    to cheerleading and eSports.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
-                    <li>Location: <a href="https://maps.app.goo.gl/UKYvvMDSzNj5aeme8">700 N High St, Columbus, OH 43215
-                            (Greater Columbus Convention Center &amp; Ohio Expo Center)</a></li>
                     <li>Dates: Late February through early March</li>
+                    <li>Location: <a href="https://maps.app.goo.gl/UKYvvMDSzNj5aeme8">700 N High St, Columbus, OH
+                            43215</a></li>
                     <li>It features more athletes than the Olympic Games!</li>
                 </ul>
-            </details>
+            </div>
             <img class="event-img" src="images_events/arnoldsportsfestival.jpg"
-                alt="Photograph of attendees at the Arnold Sports Festival in Columbus." width="300" height="200">
+                alt="Attendees at the Arnold Sports Festival in Columbus." width="300" height="200">
         </div>
 
         <div class="event" id="red-white-boom">
-            <header>
+            <div class="card-title">
                 <h3>Red, White &amp; BOOM!</h3>
                 <a href="https://redwhiteandboom.org/" class="event-link">Visit Website</a>
-            </header>
-            <p>This is the largest Independence Day celebration in the Midwest, drawing over 400,000
-                visitors to Downtown Columbus. The event features a huge street festival, live music,
-                a parade, and the most spectacular fireworks display in Ohio.</p>
-            <details class="event-details">
-                <summary class="event-summary">More Details</summary>
+            </div>
+            <div class="card-body">
+                <p>This is the largest Independence Day celebration in the Midwest, drawing over
+                    400,000 visitors to Downtown Columbus. The event features a huge street
+                    festival, live music, a parade, and the most spectacular fireworks display
+                    in Ohio.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
+                    <li>Dates: July 3rd every year</li>
                     <li>Location: <a href="https://maps.app.goo.gl/T6WLDCjcWF21guwq7">Downtown Columbus &amp; Scioto
                             Mile, Columbus, OH 43215</a></li>
-                    <li>Dates: July 3rd every year</li>
                     <li>General admission is free for everyone!</li>
                 </ul>
-            </details>
+            </div>
             <img class="event-img" src="images_events/redwhiteboom.jpg"
-                alt="Photograph of the Red, White and BOOM fireworks display over Downtown Columbus." width="300"
-                height="200">
+                alt="Fireworks display over Downtown Columbus at Red, White and BOOM." width="300" height="200">
         </div>
 
         <div class="event" id="columbus-arts-festival">
-            <header>
+            <div class="card-title">
                 <h3>Columbus Arts Festival</h3>
                 <a href="https://www.columbusartsfestival.org/" class="event-link">Visit Website</a>
-            </header>
-            <p>Recognized as one of the top fine art festivals in the country, this event transforms the
-                downtown riverfront into a massive outdoor gallery. It showcases over 200 juried artists
-                from across the nation, alongside multiple stages for live music, dance, and theater.</p>
-            <details class="event-details">
-                <summary class="event-summary">More Details</summary>
+            </div>
+            <div class="card-body">
+                <p>Recognized as one of the top fine art festivals in the country, this event
+                    transforms the downtown riverfront into a massive outdoor gallery. It
+                    showcases over 200 juried artists from across the nation, alongside multiple
+                    stages for live music, dance, and theater.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
+                    <li>Dates: Mid-June (Friday - Sunday)</li>
                     <li>Location: <a href="https://maps.app.goo.gl/95ST2LegzPrdco9j6">Scioto Mile Riverfront, Columbus,
                             OH 43215</a></li>
-                    <li>Dates: Mid-June (Friday - Sunday)</li>
-                    <li>The festival has been a Columbus cultural fixture since 1960!</li>
+                    <li>A Columbus cultural fixture since 1960!</li>
                 </ul>
-            </details>
+            </div>
             <img class="event-img" src="images_events/columbusartsfestival.jpg"
-                alt="Photograph of the Columbus Arts Festival along the Scioto Mile Riverfront." width="300"
-                height="200">
+                alt="Columbus Arts Festival along the Scioto Mile Riverfront." width="300" height="200">
         </div>
 
         <div class="event" id="jazz-rib-fest">
-            <header>
+            <div class="card-title">
                 <h3>Jazz &amp; Rib Fest</h3>
                 <a href="https://www.hotribscooljazz.org" class="event-link">Visit Website</a>
-            </header>
-            <p>This beloved summertime tradition offers three days of "hot ribs and cool jazz." Visitors
-                can sample BBQ from award-winning pitmasters from across the country while enjoying
-                continuous live performances from world-class jazz musicians on multiple stages.</p>
-            <details class="event-details">
-                <summary class="event-summary">More Details</summary>
+            </div>
+            <div class="card-body">
+                <p>This beloved summertime tradition offers three days of "hot ribs and cool
+                    jazz." Visitors can sample BBQ from award-winning pitmasters from across
+                    the country while enjoying continuous live performances from world-class
+                    jazz musicians on multiple stages.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
-                    <li>Location: <a href="https://maps.app.goo.gl/nyxP2CBPtNqyt5wk9">233 S Civic Center Dr, Columbus,
-                            OH 43215 (Bicentennial Park &amp; West Bank Park)</a></li>
                     <li>Dates: Late July</li>
+                    <li>Location: <a href="https://maps.app.goo.gl/nyxP2CBPtNqyt5wk9">233 S Civic Center Dr, Columbus,
+                            OH 43215</a></li>
                     <li>Admission is free, so you can save your money for the ribs!</li>
                 </ul>
-            </details>
+            </div>
             <img class="event-img" src="images_events/jazzribfest.jpg"
-                alt="Photograph of the Jazz and Rib Fest with live music and BBQ vendors in Columbus." width="300"
-                height="200">
+                alt="Live music and BBQ vendors at Jazz and Rib Fest in Columbus." width="300" height="200">
         </div>
 
         <div class="event" id="columbus-book-festival">
-            <header>
+            <div class="card-title">
                 <h3>Columbus Book Festival</h3>
                 <a href="https://www.columbusbookfestival.org/" class="event-link">Visit Website</a>
-            </header>
-            <p>The Columbus Book Festival is a massive, two-day celebration held at the historic Main
-                Library and Topiary Park. It features over 200 national and local authors, panel
-                discussions, and the popular "Indie Author Alley," where you can meet self-published
-                creators.</p>
-            <details class="event-details">
-                <summary class="event-summary">More Details</summary>
+            </div>
+            <div class="card-body">
+                <p>The Columbus Book Festival is a massive, two-day celebration held at the
+                    historic Main Library and Topiary Park. It features over 200 national and
+                    local authors, panel discussions, and the popular "Indie Author Alley,"
+                    where you can meet self-published creators.</p>
+            </div>
+            <div class="info-sidebar">
                 <ul>
-                    <li>Location: <a href="https://maps.app.goo.gl/cV8KiamihypfCHPeA">96 S Grant Ave, Columbus, OH 43215
-                            (Main Library &amp; Topiary Park)</a></li>
                     <li>Dates: Mid-July</li>
-                    <li>Admission is free and the event includes a huge "Friends of the Library" book sale!</li>
+                    <li>Location: <a href="https://maps.app.goo.gl/cV8KiamihypfCHPeA">96 S Grant Ave, Columbus, OH
+                            43215</a></li>
+                    <li>Admission is free and includes a huge "Friends of the Library" book sale!</li>
                 </ul>
-            </details>
+            </div>
             <img class="event-img" src="images_events/columbusbookfestival.jpg"
-                alt="Photograph of the Columbus Book Festival at the Main Library and Topiary Park." width="300"
-                height="200">
+                alt="Columbus Book Festival at the Main Library and Topiary Park." width="300" height="200">
         </div>
+
     </section>
 </body>
 
