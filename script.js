@@ -5,6 +5,15 @@ const slides = [
     { src: "images_index/columbus3.jpg", alt: "The Scioto Mile in Columbus" },
     { src: "images_index/columbus4.jpg", alt: "Short North Arts District in Columbus" },
     { src: "images_index/columbus5.jpg", alt: "Ohio Statehouse in Columbus" },
+    { src: "images_index/columbus6.jpg", alt: "Easton Town Center in Columbus" },
+    { src: "images_index/columbus7.jpg", alt: "Polaris Fashion Place in Columbus" },
+    { src: "images_index/columbus8.jpg", alt: "The Clitonville Neighborhood in Columbus" },
+    { src: "images_index/columbus9.jpg", alt: "German Village in Columbus" },
+    { src: "images_index/columbus10.jpg", alt: "John Glenn International Airport in Columbus" },
+    { src: "images_index/columbus11.jpg", alt: "The Ohio State University in Columbus" },
+    { src: "images_index/columbus12.jpg", alt: "The Nationwide Arena in Columbus" },
+    { src: "images_index/columbus13.jpg", alt: "The Columbus Crew Stadium in Columbus" },
+    { src: "images_index/columbus14.jpg", alt: "The Columbus Art Museum in Columbus" },
 ];
 
 let currentSlide = 0;
