@@ -1,6 +1,4 @@
-// ========================
-// SLIDESHOW
-// ========================
+/* Photo Slideshow */
 const slides = [
     { src: "images_index/columbus1.jpg", alt: "A scenic view of Columbus, Ohio" },
     { src: "images_index/columbus2.jpg", alt: "Downtown Columbus skyline" },
@@ -53,9 +51,7 @@ updateSlide();
 autoRotate = setInterval(goNext, 4000);
 
 
-// ========================
-// FORM VALIDATION
-// ========================
+// Form Validation
 const form = document.getElementById("subscription-form");
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
@@ -119,9 +115,7 @@ emailInput.addEventListener("input", function () {
 });
 
 
-// ========================
-// SCROLL TO TOP BUTTON
-// ========================
+// Scroll to top to bottom
 const scrollBtn = document.createElement("button");
 scrollBtn.textContent = "↑";
 scrollBtn.id = "scroll-top-btn";
