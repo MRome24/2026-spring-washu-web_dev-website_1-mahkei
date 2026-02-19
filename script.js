@@ -14,6 +14,7 @@ const slides = [
     { src: "images_index/columbus12.jpg", alt: "The Nationwide Arena in Columbus" },
     { src: "images_index/columbus13.jpg", alt: "The Columbus Crew Stadium in Columbus" },
     { src: "images_index/columbus14.jpg", alt: "The Columbus Art Museum in Columbus" },
+    { src: "images_index/columbus145.jpg", alt: "The Columbus Commons" },
 ];
 
 let currentSlide = 0;
