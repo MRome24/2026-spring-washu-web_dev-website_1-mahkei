@@ -123,23 +123,3 @@ nameInput.addEventListener("input", function () {
 emailInput.addEventListener("input", function () {
     setError(emailInput, false);
 });
-
-
-// Scroll to top to bottom
-const scrollBtn = document.createElement("button");
-scrollBtn.textContent = "↑";
-scrollBtn.id = "scroll-top-btn";
-scrollBtn.setAttribute("aria-label", "Scroll to top");
-document.body.appendChild(scrollBtn);
-
-window.addEventListener("scroll", function () {
-    if (window.scrollY > 300) {
-        scrollBtn.style.display = "block";
-    } else {
-        scrollBtn.style.display = "none";
-    }
-});
-
-scrollBtn.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-});
